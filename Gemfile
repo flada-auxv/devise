@@ -2,7 +2,10 @@ source "http://rubygems.org"
 
 gemspec
 
-gem "rails", "~> 3.2.6"
+gem 'rails',     github: 'rails/rails'
+gem 'journey',   github: 'rails/journey'
+gem 'arel',      github: 'rails/arel'
+gem 'activerecord-deprecated_finders', github: 'rails/activerecord-deprecated_finders'
 gem "omniauth", "~> 1.0.0"
 gem "omniauth-oauth2", "~> 1.0.0"
 gem "rdoc"
