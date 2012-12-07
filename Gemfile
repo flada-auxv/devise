@@ -27,6 +27,6 @@ platforms :ruby do
   gem "sqlite3"
 
   group :mongoid do
-    gem "mongoid", "~> 3.0"
+    gem "mongoid", github: "flada-auxv/mongoid", branch: "flada-auxv"
   end
 end
